@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World English Institue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Already a member ? LOGIN</p>
+        <h1>World English Institute</h1>
+        <div class="language">
+            <p>English</p>
+            <p>Español</p>
+            <p>Français</p>
+        </div>
+    </header>
+    <nav>
+
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./faq.html">FAQS</a></li>
+            <li><a href="./mission.html">MISSION</a></li>
+            <li><a href="./acti.html">ACTIVITIES</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div class="our-main">
+        <div class="contentBox">
+            <div class="label">How do the email courses work?</div>
+            <div class="content">
+                <p>After you register using your email address, you will receive a free introductory lesson. Reply to
+                    your introductory lesson with your answers. After we receive your answers you will be matched with
+                    your own personal English teacher. At this time, you will receive any corrections for your
+                    introductory lessons along with the first full English lessons. Your teacher will be your contact
+                    person and will grade your tests as well as send you new tests.</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">What if I don't have an email address?</div>
+            <div class="content email">
+                <p>You can sign up for free email from any of many free email providers like Gmail, Yahoo!, Hotmail,
+                    etc.</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">How much does this cost?</div>
+            <div class="content free">
+                <p>Absolutely nothing.</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">Will these lessons help me prepare for the TOEFL examination?</div>
+            <div class="content mind">
+                <p>Yes, World English Institute courses are designed specifically to help students improve
+                    their English skills with the TOEFL examination in mind.
+
+                    .</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">How long do the lessons take to complete?
+            </div>
+            <div class="content current">
+                <p>This depends on your current English skill level. For some, each lesson will not take
+                    more than one hour. For others, the lessons could take several hours.
+
+                </p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">Will these courses fit my schedule?</div>
+            <div class="content test">
+                <p>Yes. Complete each test at your convenience. We encourage you to work hard and
+                    complete the tests in timely manner, but there is no deadline for completing
+                    each test.</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">Who are the teachers?</div>
+            <div class="content teacher">
+                <p>All WEI teachers are native English speakers. They will help you learn the
+                    details of forming better sounding and grammatically correct sentences.</p>
+            </div>
+        </div>
+        <div class="contentBox">
+            <div class="label">I have more questions that were not mentioned here.</div>
+            <div class="content more">
+                <p>Feel free to Contact us with any questions you may have. We look forward
+                    to hearing from you.</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <footer style="margin-top: 80px;">
+        <p>Copyright ©1990–2022 World English Institute, All Rights Reserved | Privacy
+            Policy</p>
+    </footer>
+
+
+
+    <script>
+        const accordination = document.getElementsByClassName('contentBox');
+        for(i = 0; i < accordination.length; i++){
+            accordination[i].addEventListener('click', function(){
+                this.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+
+</html>
